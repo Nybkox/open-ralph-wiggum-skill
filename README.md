@@ -1,6 +1,6 @@
 # Open Ralph Wiggum Skill
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for running [Open Ralph Wiggum](https://github.com/Th0rgal/open-ralph-wiggum) — an autonomous agentic loop that repeatedly sends a prompt to an AI coding agent until the task is complete.
+An agent skill for running [Open Ralph Wiggum](https://github.com/Th0rgal/open-ralph-wiggum) — an autonomous agentic loop that repeatedly sends a prompt to an AI coding agent until the task is complete.
 
 ## Install
 
@@ -10,9 +10,9 @@ npx skills add Nybkox/open-ralph-wiggum-skill
 
 ## Usage
 
-Once installed, just ask Claude to run ralph:
+Once installed, just ask to run ralph:
 
-- "ralph this task with claude-code and sonnet"
+- "ralph this task with opencode and sonnet"
 - "loop on fixing the auth bug, no yolo"
 - "run ralph with codex, max 10 iterations"
 
